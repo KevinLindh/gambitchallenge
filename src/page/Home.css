@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    width: 100vw;
+    max-width: 100vw;
     color: #ffffff;
     object-fit: contain;
     background-position: center;
@@ -16,7 +16,8 @@
  flex-wrap: wrap;
  align-items: center;
  justify-content: center;
- gap: 8em;
+ gap: 8rem;
+ padding: 3rem;
 }
 
 .individual-value{
@@ -33,11 +34,11 @@
 
 .register-num{
     color: grey;
-    font-size: 0.75em;
+    font-size: 0.75rem;
 }
 
 .converted-data{
-    font-size: 1.25em;
+    font-size: 1.25rem;
     font-weight: bold;
 }
 

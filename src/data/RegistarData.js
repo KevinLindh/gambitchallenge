@@ -1,4 +1,4 @@
-export const registarInfo = [
+export const registarInfo = [ 
     {
         id: 1,
         name: 'Flow Rate',
