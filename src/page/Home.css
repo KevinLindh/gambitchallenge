@@ -21,13 +21,12 @@
 .individual-value{
     width: 250px;
     min-height: 300px;
-    margin: 30px;
     background-color: black;
     border: 2px solid grey;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
     border-radius: 10px;
 }
 
