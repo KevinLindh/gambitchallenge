@@ -1,0 +1,98 @@
+.login-main {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url("https://images.unsplash.com/photo-1510906594845-bc082582c8cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1444&q=80");
+    object-fit: contain;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-color: black;
+  }
+  
+  .auth-form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 70px 30px 70px;
+    backdrop-filter: blur(7px) saturate(159%);
+    -webkit-backdrop-filter: blur(22px) saturate(159%);
+    background-color: rgba(124, 128, 136, 0.25);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border: 1px solid white;
+    width: 300px;
+    height: 600px;
+    }
+
+ 
+  .login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+  }
+
+  .login-form button{
+    height: 40px;
+    width: 200px;
+    background: rgb(70, 70, 245);
+    border-radius: 10px;
+    color: white;
+  }
+
+  .login-form button:hover{
+    cursor: pointer;
+    background: rgb(45, 45, 249);
+  }
+
+  .loginErr{
+    font-weight: bold;
+    color: red;
+    line-height: 10%;
+  }
+
+  .login-form input {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  
+  .link-btn {
+    background: none;
+    color: white;
+    text-decoration: underline;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .auth-form-container {
+    padding: 0px 25px 0px 25px;
+      border-radius: 10px;
+      width: 250px;
+      height: 500px;
+    }
+    .login-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 5px;
+      }
+      .main-form h2{
+        font-size: 1em;
+      }
+      .main-form h1{
+        font-size: 1.4em;
+      }
+  }

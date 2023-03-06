@@ -17,7 +17,7 @@ function Values(props) {
             {props.data.map((data, index, arr)=> {
                 if((index > 0 && data.name !== arr[index-1].name) || data.id === 45 || data.id === 47){
                 return <tr key={data.id}>
-                        <td>{data.id}</td>
+                        {data.number === 1 ? <td>{data.id}</td> : data.number === 2 ? <td>{data.id}-{data.id+1}</td> : <td>{data.id}-{data.id+2}</td> }
                         <td>{data.name}</td>
                         <td>{data.note}</td>
                         <td>{convert(data, index, arr)}</td>
