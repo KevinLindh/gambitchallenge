@@ -5,12 +5,12 @@
     width: 100vw;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #ffffff;
     background-image: url("https://images.unsplash.com/photo-1510906594845-bc082582c8cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1444&q=80");
     object-fit: contain;
     background-position: center;
     background-repeat:no-repeat;
-    background-color: black;
+    background-color: #000000;
   }
   
   .auth-form-container{
@@ -24,7 +24,7 @@
     background-color: rgba(124, 128, 136, 0.25);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
-    border: 1px solid white;
+    border: 1px solid #ffffff;
     min-width: 300px;
     min-height: 600px;
     }
@@ -44,7 +44,7 @@
     width: 200px;
     background: rgb(70, 70, 245);
     border-radius: 10px;
-    color: white;
+    color: #ffffff;
   }
 
   .login-form button:hover{
@@ -54,7 +54,7 @@
 
   .loginErr{
     font-weight: bold;
-    color: red;
+    color: #ff0000;
     line-height: 10%;
   }
 
@@ -69,7 +69,7 @@
   
   .link-btn {
     background: none;
-    color: white;
+    color: #ffffff;
     text-decoration: underline;
   }
 
