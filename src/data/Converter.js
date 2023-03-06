@@ -8,7 +8,7 @@ export function convert(data, index, arr){
       let view = new DataView(buffer)
       view.setUint16(0, data.rawData, true);
       view.setUint16(2, arr[index+1].rawData, true);
-      return view.getFloat32(0, true).toPrecision(10);
+      return view.getFloat32(0, true).toPrecision(6);
    } 
    
    /* LONG format */
