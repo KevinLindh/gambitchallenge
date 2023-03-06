@@ -27,10 +27,8 @@ function Home() {
             setActiveUser(user);
             const uid = user.uid;
             setLoading(false)
-            console.log("user is logged in")
           } else {
             navigate('/');
-            console.log("user is logged out")
           }
         });
        
@@ -42,7 +40,6 @@ function Home() {
     signOut(auth).then(() => {
     // Sign-out successful.
         navigate("/");
-        console.log("Signed out successfully")
     }).catch((error) => {
     // An error happened.
     console.log(error)
