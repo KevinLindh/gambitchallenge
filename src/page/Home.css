@@ -20,7 +20,7 @@
 
 .individual-value{
     width: 250px;
-    height: 300px;
+    min-height: 300px;
     margin: 30px;
     background-color: black;
     border: 2px solid grey;
