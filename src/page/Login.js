@@ -12,22 +12,21 @@ function Login(props){
 
     const navigate = useNavigate();
 
-        // Password toggle handler
-        const togglePassword = (e) => {
-            e.preventDefault()
-            // When the handler is invoked
-            // inverse the boolean state of passwordShown
-            setPasswordShown(!passwordShown);
-        };
+     // Password toggle handler
+    const togglePassword = (e) => {
+        e.preventDefault()
+        // When the handler is invoked
+        // inverse the boolean state of passwordShown
+        setPasswordShown(!passwordShown);
+    };
     
-
+    //Attempt login
     const handleSubmit = (e) => {
         e.preventDefault();
         signInWithEmailAndPassword(auth, email, pass)
         .then((userCredential) => {
             // Signed in
             const user = userCredential.user;
-            console.log(user);
             navigate('/Home');
         })
         .catch((error) => {

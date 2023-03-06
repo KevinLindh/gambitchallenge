@@ -19,14 +19,45 @@
 }
 
 .individual-value{
-    width: 200px;
+    width: 250px;
     height: 300px;
-    margin: 20px;
+    margin: 30px;
     background-color: black;
-    border: 2px solid white;
+    border: 2px solid grey;
     padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     border-radius: 10px;
+}
+
+.register-num{
+    color: grey;
+    font-size: 0.75em;
+}
+
+.converted-data{
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.data-units{
+    font-style: italic;
+    padding-top: 10px;
+}
+
+.user-logout{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logout-svg{
+    padding: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logout-svg:hover{
+    cursor: pointer;
 }
