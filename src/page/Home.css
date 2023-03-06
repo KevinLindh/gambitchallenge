@@ -1,12 +1,32 @@
-#root {
+.data{
     text-align: center;
     display: flex;
+    flex-direction: column;
     min-height: 100vh;
-    align-items: center;
-    justify-content: center;
+    width: 100vw;
     color: white;
     object-fit: contain;
     background-position: center;
     background-repeat:no-repeat;
-    background-color: grey;
-  }
+    background-color: rgb(43, 38, 38);
+}
+
+.values{
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+}
+
+.individual-value{
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    background-color: black;
+    border: 2px solid white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+}

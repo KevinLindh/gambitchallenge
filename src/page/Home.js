@@ -45,10 +45,12 @@ function Home() {
 
     return (
       <div className="App">
+        <section className='data'>
         		<button onClick={handleLogout}>
                         Logout
             </button>
         {!loading ? <Values data={values}></Values>: <></>}
+        </section>
       </div>
     );
   }
