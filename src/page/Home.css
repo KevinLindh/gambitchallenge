@@ -13,6 +13,18 @@
 
 /* Pinned */
 
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+      100% {
+      transform: scale(1);
+    }
+}
+
 .values-pinned{
     display: flex;
     flex-wrap: wrap;
@@ -34,9 +46,13 @@
        border-radius: 10px;
    }
 
+   .individual-value-pinned:hover{
+    cursor: pointer;
+    animation: pulse 1.5s;
+   }
+
 
 /* Not Pinned */
-
 .values{
  display: flex;
  flex-wrap: wrap;
@@ -56,6 +72,16 @@
     justify-content: space-around;
     flex-direction: column;
     border-radius: 10px;
+}
+
+.individual-value:hover{
+    cursor:pointer;
+    animation: pulse 1.5s;
+}
+
+.individual-value:active{
+    cursor:pointer;
+    border: 2px solid green;
 }
 
 .register-num{
