@@ -32,7 +32,6 @@
 
 This is my solution for the Gambit-Labs-challenge takehome. 
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 ![gambitlabsgif](https://user-images.githubusercontent.com/94518833/223472378-e71e8690-c8a5-4ff1-a5b9-cc8dfc51e2ff.gif)
 
 ### Create UI for showing the data for user
