@@ -11,11 +11,11 @@ function Values(props) {
     const handleClick = (e, key) =>{
         e.preventDefault();
         let current = pinned
-        if(pinned.indexOf(key) === -1){
+        if(pinned.split(",").indexOf(key.toString()) === -1){
         current += `,${key}` 
         let newVal = current.split("\\").join("")
         setPinned(newVal);
-        localStorage.setItem("pinned", JSON.stringify(pinned));
+        localStorage.setItem("pinned", JSON.stringify(newVal));
         }
     }
 
@@ -33,7 +33,7 @@ function Values(props) {
         //storing as to pin the card
         let stored = localStorage.getItem("pinned");
         let cleaned = stored.split("\\").join("").split("\"").join("");
-        localStorage.setItem("pinned", cleaned);
+        setPinned(cleaned);
     }, []);
 
   return (
