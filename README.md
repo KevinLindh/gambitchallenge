@@ -32,7 +32,7 @@
 
 This is my solution for the Gambit-Labs-challenge takehome. 
 
-![gambitlabsgif](https://user-images.githubusercontent.com/94518833/223472378-e71e8690-c8a5-4ff1-a5b9-cc8dfc51e2ff.gif")(https://exquisite-cuchufli-0264ed.netlify.app/)
+![gambitlabsgif](https://user-images.githubusercontent.com/94518833/223472378-e71e8690-c8a5-4ff1-a5b9-cc8dfc51e2ff.gif)(https://exquisite-cuchufli-0264ed.netlify.app/)
 
 ### Create UI for showing the data for user
 
