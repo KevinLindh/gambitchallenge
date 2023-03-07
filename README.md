@@ -36,13 +36,16 @@ This is my solution for the Gambit-Labs-challenge takehome.
 
 ### Create UI for showing the data for user
 
-Where the objectives were:
+Objective:
+
 * Modern javascript frameworks or maybe an mobile app. It's up to you
 * Easily deployable and testable
 * UX will be also a key factor on this
 * Authentication
 
+
 ### Demo Available here : <a href="https://exquisite-cuchufli-0264ed.netlify.app/">Live Demo Here!</a>
+
 
 To login use:
 
@@ -55,8 +58,22 @@ To login use:
 
 ### Built With
 
-This section lists any major frameworks/libraries used to create the projects
-[![React][React.js]][React-url]
+This section lists any major technologies used to create the projects
+
+
+* [![React][React.js]][React-url]
+* ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+* ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+* ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+* ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+* ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+* ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
+* ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+* ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
+
+* ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
