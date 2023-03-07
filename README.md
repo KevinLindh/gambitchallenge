@@ -44,7 +44,10 @@ Where the objectives were:
 
 ### Demo Available here : <a href="https://exquisite-cuchufli-0264ed.netlify.app/">Live Demo Here!</a>
 
-To login use the email: admin@admin.com password: adminadmin
+To login use:
+
+* Email: admin@admin.com 
+* Password: adminadmin
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
