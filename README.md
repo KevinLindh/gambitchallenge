@@ -122,6 +122,8 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 <!-- USAGE EXAMPLES -->
 ## Future Optimizations
 
+Add some type of search feature to make it easier to find individual specific values
+
 More optimization to make the site more accessable to all users
 
 Stylize better to make UI more inviting and easy on the eyes
