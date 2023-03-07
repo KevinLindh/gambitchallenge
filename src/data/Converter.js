@@ -1,28 +1,15 @@
 export function convert(data, index, arr){
-   /* REAL4 format */
    if(data.format === "REAL4" && arr[index+1] !== undefined && data.name === arr[index+1].name){
-      if(data.name === "Current input at AI3" && data.id%2 === 0){
-         return "";
-      }
-      let buffer = new ArrayBuffer(4);
-      let view = new DataView(buffer)
-      view.setUint16(0, data.rawData, true);
-      view.setUint16(2, arr[index+1].rawData, true);
-      return view.getFloat32(0, true).toPrecision(6);
+      return real4Convert(data, index, arr);
    } 
    
-   /* LONG format */
    else if(data.format === "LONG" && arr[index+1] !== undefined && data.name === arr[index+1].name){
-      let buffer = new ArrayBuffer(4);
-      let view = new DataView(buffer)
-      view.setUint16(0, data.rawData, true);
-      view.setUint16(2, arr[index+1].rawData, true);
-      return view.getInt32(0, true);
+      return longConvert(data, index, arr);
    } 
    
    /* INTEGER format */
    else if(data.format === "INTEGER"){
-      return parseInt(data.rawData.toString(16).slice(-2), 16);
+      return integerConvert(data);
    } 
 
    /* BCD format Date (using three datapoints)*/
@@ -44,7 +31,43 @@ export function convert(data, index, arr){
 
    /* BIT format Error handler */
    else if(data.format === "BIT"){
-      let bitVal = data.rawData.toString(2).split("").reverse().join("");
+      return bitConvert(data);
+   }
+}
+
+
+
+/* Helper functions */
+
+/* REAL4Converter */
+export function real4Convert(data, index, arr){
+   if(data.name === "Current input at AI3" && data.id%2 === 0){
+      return "";
+   }
+   let buffer = new ArrayBuffer(4);
+   let view = new DataView(buffer)
+   view.setUint16(0, data.rawData, true);
+   view.setUint16(2, arr[index+1].rawData, true);
+   return view.getFloat32(0, true).toPrecision(6);
+}
+
+ /* LONG format */
+ export function longConvert(data, index, arr){
+   let buffer = new ArrayBuffer(4);
+      let view = new DataView(buffer)
+      view.setUint16(0, data.rawData, true);
+      view.setUint16(2, arr[index+1].rawData, true);
+      return view.getInt32(0, true);
+ }
+
+/* Integer format */
+export function integerConvert(data){
+   return parseInt(data.rawData.toString(16).slice(-2), 16);
+}
+
+/* bit convert */
+export function bitConvert(data){
+   let bitVal = data.rawData.toString(2).split("").reverse().join("");
       let error = "";
       for(let i = 0; i < bitVal.length; i++){
          if(bitVal[i] === "1"){
@@ -100,12 +123,8 @@ export function convert(data, index, arr){
          }
       }
       return error;
-   }
-   
-
-   //BCD for 3 key
-   //BCD for 1 key
 }
+
 
 /*
 convert Real4
