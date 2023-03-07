@@ -27,12 +27,19 @@ export function convert(data, index, arr){
 
    /* BCD format Date (using three datapoints)*/
    else if(data.format === "BCD" && arr[index+1] !== undefined && data.name === arr[index+1].name && arr[index+2] !== undefined && arr[index+2].name === arr[index+1].name){
-      return data.rawData;
+      // let second = parseInt(data.rawData.toString(16).slice(-2), 16);
+      // let minute = parseInt(data.rawData.toString(16).slice(2), 16);
+      // let hour = parseInt(arr[index+1].rawData.toString(16).slice(-2), 16);
+      // let day = parseInt(arr[index+1].rawData.toString(16).slice(2), 16);
+      // let month = parseInt(arr[index+2].rawData.toString(16).slice(-2), 16);
+      // let year = parseInt(arr[index+2].rawData.toString(16).slice(2), 16);
+      // console.log(parseInt(arr[index+2].rawData.toString(16).slice(-2), 16), arr[index+2].rawData.toString(16).slice(-2), 16)
+       return data.rawData;
    } 
 
    /* BCD format */
    else if(data.format === "BCD"){
-      return data.rawData;
+      
    } 
 
    /* BIT format Error handler */

@@ -11,6 +11,32 @@
     background-color: rgb(43, 38, 38);
 }
 
+/* Pinned */
+
+.values-pinned{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    padding: 3rem;
+   }
+   
+   .individual-value-pinned{
+       width: 250px;
+       min-height: 300px;
+       background-color: #000000;
+       border: 4px solid #dd0101;
+       padding: 10px;
+       display: flex;
+       justify-content: space-around;
+       flex-direction: column;
+       border-radius: 10px;
+   }
+
+
+/* Not Pinned */
+
 .values{
  display: flex;
  flex-wrap: wrap;
@@ -61,4 +87,8 @@
 
 .logout-svg:hover{
     cursor: pointer;
+}
+
+.mini-detail{
+    font-size: 0.9rem;
 }
