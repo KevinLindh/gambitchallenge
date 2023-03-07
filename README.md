@@ -1,5 +1,7 @@
 <a name="readme-top"></a>
 
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
