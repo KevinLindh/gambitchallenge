@@ -122,6 +122,9 @@ export function bitConvert(data){
             }
          }
       }
+      if(error === ""){
+         return "No errors";
+      }
       return error;
 }
 

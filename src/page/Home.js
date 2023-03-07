@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import { onAuthStateChanged } from "firebase/auth";
 import {  signOut } from "firebase/auth";
 import { auth } from "../firebase";
+import { dateInfo } from '../data/DataDate';
 
 
 function Home() {
@@ -17,6 +18,8 @@ function Home() {
     const [values, setValues] = useState(nonZeroes);
 
     const [activeUser, setActiveUser] = useState("");
+
+    const currDate = dateInfo[0].note;
 
     //Make sure the user is signed in
     useEffect(()=>{
@@ -50,6 +53,7 @@ function Home() {
       <div className="App">
         <section className='data'>
           <div className='user-logout'>
+            <span className="data-date" >Date: {currDate}</span>
             <span>User: {activeUser.email}</span>
             <a className='logout-svg' onClick={handleLogout}>
               <span>Logout</span>

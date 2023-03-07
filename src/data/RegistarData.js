@@ -5,7 +5,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'Unit m^3/h',
         number: 2,
-        rawData: 7579,
+        rawData: 63647,
       },
       {
         id: 2,
@@ -13,7 +13,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'Unit m^3/h',
         number: 2,
-        rawData: 48988,
+        rawData: 15846,
       },
       {
         id: 3,
@@ -21,7 +21,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'Unit GJ/h',
         number: 2,
-        rawData: 5064,
+        rawData: 37438,
       },
       {
         id: 4,
@@ -29,7 +29,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'Unit GJ/h',
         number: 2,
-        rawData: 48142,
+        rawData: 47954,
       },
       {
         id: 5,
@@ -37,7 +37,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'Unit m/s',
         number: 2,
-        rawData: 37967,
+        rawData: 19407,
       },
       {
         id: 6,
@@ -45,7 +45,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'Unit m/s',
         number: 2,
-        rawData: 48877,
+        rawData: 15737,
       },
       {
         id: 7,
@@ -53,7 +53,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'Unit m/s',
         number: 2,
-        rawData: 63814,
+        rawData: 8874,
       },
       {
         id: 8,
@@ -61,7 +61,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'Unit m/s',
         number: 2,
-        rawData: 17575,
+        rawData: 17584,
       },
       {
         id: 9,
@@ -69,7 +69,7 @@ export const registarInfo = [
         format: 'LONG',
         note: 'Unit is selected by M31, and depends on totalizer multiplier',
         number: 2,
-        rawData: 0,
+        rawData: 23,
       },
       {
         id: 10,
@@ -85,7 +85,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'Same Unit as the integer part',
         number: 2,
-        rawData: 24224,
+        rawData: 13971,
       },
       {
         id: 12,
@@ -93,7 +93,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'Same Unit as the integer part',
         number: 2,
-        rawData: 15965,
+        rawData: 16225,
       },
       {
         id: 13,
@@ -133,7 +133,7 @@ export const registarInfo = [
         number: 2,
         format: 'LONG',
         note: '',
-        rawData: 87,
+        rawData: 1989,
       },
       {
         id: 18,
@@ -149,7 +149,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: '',
         number: 2,
-        rawData: 9891,
+        rawData: 57587,
       },
       {
         id: 20,
@@ -157,7 +157,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: '',
         number: 2,
-        rawData: 16221,
+        rawData: 16174,
       },
       {
         id: 21,
@@ -165,7 +165,7 @@ export const registarInfo = [
         format: 'LONG',
         note: '',
         number: 2,
-        rawData: 65480,
+        rawData: 64432,
       },
       {
         id: 22,
@@ -181,7 +181,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: '',
         number: 2,
-        rawData: 39041,
+        rawData: 8497,
       },
       {
         id: 24,
@@ -189,7 +189,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: '',
         number: 2,
-        rawData: 48994,
+        rawData: 48788,
       },
       {
         id: 25,
@@ -229,7 +229,7 @@ export const registarInfo = [
         format: 'LONG',
         note: '',
         number: 2,
-        rawData: 144,
+        rawData: 3093,
       },
       {
         id: 30,
@@ -245,7 +245,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: '',
         number: 2,
-        rawData: 48777,
+        rawData: 59025,
       },
       {
         id: 32,
@@ -253,7 +253,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: '',
         number: 2,
-        rawData: 16191,
+        rawData: 16248,
       },
       {
         id: 33,
@@ -261,7 +261,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'Unit: C',
         number: 2,
-        rawData: 15568,
+        rawData: 14744,
       },
       {
         id: 34,
@@ -269,7 +269,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'Unit: C',
         number: 2,
-        rawData: 16611,
+        rawData: 16690,
       },
       {
         id: 35,
@@ -277,7 +277,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'Unit: C',
         number: 2,
-        rawData: 28424,
+        rawData: 41664,
       },
       {
         id: 36,
@@ -285,7 +285,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'Unit: C',
         number: 2,
-        rawData: 16534,
+        rawData: 16783,
       },
       {
         id: 37,
@@ -293,7 +293,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: '',
         number: 2,
-        rawData: 7424,
+        rawData: 29184,
       },
       {
         id: 38,
@@ -301,7 +301,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: '',
         number: 2,
-        rawData: 15783,
+        rawData: 15772,
       },
       {
         id: 39,
@@ -309,7 +309,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: '',
         number: 2,
-        rawData: 14592,
+        rawData: 51200,
       },
       {
         id: 40,
@@ -317,7 +317,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: '',
         number: 2,
-        rawData: 15758,
+        rawData: 15729,
       },
       {
         id: 41,
@@ -325,7 +325,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: '',
         number: 2,
-        rawData: 5461,
+        rawData: 10922,
       },
       {
         id: 42,
@@ -341,7 +341,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'In Unit mA',
         number: 2,
-        rawData: 45184,
+        rawData: 40960,
       },
       {
         id: 44,
@@ -349,7 +349,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'In Unit mA',
         number: 2,
-        rawData: 15493,
+        rawData: 15476,
       },
       {
         id: 45,
@@ -357,7 +357,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'In Unit mA',
         number: 2,
-        rawData: 36608,
+        rawData: 48128,
       },
       {
         id: 46,
@@ -365,7 +365,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'In Unit mA',
         number: 2,
-        rawData: 15459,
+        rawData: 15419,
       },
       {
         id: 47,
@@ -373,7 +373,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'In Unit mA',
         number: 2,
-        rawData: 29184,
+        rawData: 14592,
       },
       {
         id: 48,
@@ -381,7 +381,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'In Unit mA',
         number: 2,
-        rawData: 15516,
+        rawData: 15502,
       },
       {
         id: 49,
@@ -421,7 +421,7 @@ export const registarInfo = [
         format: 'BCD',
         note: 'Writable。6 Bytes of BCD stands SMHDMY，lower byte first',
         number: 3,
-        rawData: 6432,
+        rawData: 9267,
       },
       {
         id: 54,
@@ -429,7 +429,7 @@ export const registarInfo = [
         format: 'BCD',
         note: 'Writable。6 Bytes of BCD stands SMHDMY，lower byte first',
         number: 3,
-        rawData: 4386,
+        rawData: 775,
       },
       {
         id: 55,
@@ -437,7 +437,7 @@ export const registarInfo = [
         format: 'BCD',
         note: 'Writable。6 Bytes of BCD stands SMHDMY，lower byte first',
         number: 3,
-        rawData: 5889,
+        rawData: 6152,
       },
       {
         id: 56,
@@ -525,7 +525,7 @@ export const registarInfo = [
         format: '',
         note: '',
         number: 0,
-        rawData: 4001,
+        rawData: 255,
       },
       {
         id: 67,
@@ -573,7 +573,7 @@ export const registarInfo = [
         format: 'BIT',
         note: '16bits, see note 4',
         number: 1,
-        rawData: 4,
+        rawData: 0,
       },
       {
         id: 73,
@@ -581,7 +581,7 @@ export const registarInfo = [
         format: '',
         note: '',
         number: 0,
-        rawData: 3606,
+        rawData: 469,
       },
       {
         id: 74,
@@ -597,7 +597,7 @@ export const registarInfo = [
         format: '',
         note: '',
         number: 0,
-        rawData: 54913,
+        rawData: 33183,
       },
       {
         id: 76,
@@ -605,7 +605,7 @@ export const registarInfo = [
         format: '',
         note: '',
         number: 0,
-        rawData: 48896,
+        rawData: 15780,
       },
       {
         id: 77,
@@ -613,7 +613,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'In Unit Ohm',
         number: 2,
-        rawData: 35706,
+        rawData: 44638,
       },
       {
         id: 78,
@@ -621,7 +621,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'In Unit Ohm',
         number: 2,
-        rawData: 17101,
+        rawData: 17104,
       },
       {
         id: 79,
@@ -629,7 +629,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'In Unit Ohm',
         number: 2,
-        rawData: 44042,
+        rawData: 65427,
       },
       {
         id: 80,
@@ -637,7 +637,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'In Unit Ohm',
         number: 2,
-        rawData: 17099,
+        rawData: 17109,
       },
       {
         id: 81,
@@ -645,7 +645,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'In Unit Micro-second',
         number: 2,
-        rawData: 33339,
+        rawData: 52255,
       },
       {
         id: 82,
@@ -653,7 +653,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'In Unit Micro-second',
         number: 2,
-        rawData: 16963,
+        rawData: 16955,
       },
       {
         id: 83,
@@ -661,7 +661,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'In Unit Nino-second',
         number: 2,
-        rawData: 42500,
+        rawData: 12000,
       },
       {
         id: 84,
@@ -669,7 +669,7 @@ export const registarInfo = [
         format: 'REAL4',
         number: 2,
         note: 'In Unit Nino-second',
-        rawData: 49530,
+        rawData: 16378,
       },
       {
         id: 85,
@@ -677,7 +677,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'In Unit Micro-second',
         number: 2,
-        rawData: 33468,
+        rawData: 52233,
       },
       {
         id: 86,
@@ -685,7 +685,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'In Unit Micro-second',
         number: 2,
-        rawData: 16963,
+        rawData: 16955,
       },
       {
         id: 87,
@@ -693,7 +693,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'In Unit Micro-second',
         number: 2,
-        rawData: 33210,
+        rawData: 52268,
       },
       {
         id: 88,
@@ -701,7 +701,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'In Unit Micro-second',
         number: 2,
-        rawData: 16963,
+        rawData: 16955,
       },
       {
         id: 89,
@@ -709,7 +709,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'In Unit mA',
         number: 2,
-        rawData: 2885,
+        rawData: 374,
       },
       {
         id: 90,
@@ -733,7 +733,7 @@ export const registarInfo = [
         number: 1,
         format: 'INTEGER',
         note: 'The high byte is the step and low for signal quality，range 00-99，the larger the better',
-        rawData: 806,
+        rawData: 829,
     },
       {
         id: 93,
@@ -741,7 +741,7 @@ export const registarInfo = [
         number: 1,
         format: 'INTEGER',
         note: 'Range 0-2047 ',
-        rawData: 3501,
+        rawData: 3475,
       },
       {
         id: 94,
@@ -749,7 +749,7 @@ export const registarInfo = [
         number: 1,
         format: 'INTEGER',
         note: 'Range 0-2047 ',
-        rawData: 3501,
+        rawData: 3477,
       },
       {
         id: 95,
@@ -773,7 +773,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'Normal 100+-3%',
         number: 2,
-        rawData: 43137,
+        rawData: 25478,
       },
       {
         id: 98,
@@ -781,7 +781,7 @@ export const registarInfo = [
         format: 'REAL4',
         note: 'Normal 100+-3%',
         number: 2,
-        rawData: 17105,
+        rawData: 17097,
       },
       {
         id: 99,
@@ -789,7 +789,7 @@ export const registarInfo = [
         number: 2,
         format: 'REAL4',
         note: '',
-        rawData: 3374,
+        rawData: 12816,
       },
       {
         id: 100,
@@ -797,6 +797,6 @@ export const registarInfo = [
         number: 2,
         format: 'REAL4',
         note: '',
-        rawData: 17839,
+        rawData: 17503,
       },
 ];
