@@ -15,11 +15,10 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#optimizations">optimizations</a></li>
+    <li><a href="#future optimizations">Future Optimizations</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -119,7 +118,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 
 
-<!-- USAGE EXAMPLES -->
+<!-- Future Optimizations -->
 ## Future Optimizations
 
 Add some type of search feature to make it easier to find individual specific values
