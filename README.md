@@ -55,8 +55,8 @@ To login use:
 
 ### Built With
 
-This section should list any major frameworks/libraries used to create the projects
-
+This section lists any major frameworks/libraries used to create the projects
+[![React][React.js]][React-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,6 +104,17 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 <!-- USAGE EXAMPLES -->
 ## Future Optimizations
 
+More optimization to make the site more accessable to all users
+
+Stylize better to make UI more inviting and easy on the eyes
+
+Potentially adding a way for user to download all raw data in one file if they wish to see more details (Raw data, datatypes...)
+
+Create a robust backend which would come in handy if there were mutliple different datapoints (different devices or spanning across different dates)
+
+Add registration option which would get tied to the specific devices?
+
+Look into potential libraries such as CountUp.js to make the data more inviting
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
